@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "simple-storage",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
