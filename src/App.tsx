@@ -2,7 +2,7 @@ import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
-import ViewMessage from './pages/ViewMessage';
+import ViewStorageItem from './pages/ViewStorageItem';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -33,8 +33,8 @@ const App: React.FC = () => (
         <Route path="/home" exact={true}>
           <Home />
         </Route>
-        <Route path="/message/:id">
-           <ViewMessage />
+        <Route path="/storage/:id">
+           <ViewStorageItem />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
